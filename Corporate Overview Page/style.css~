@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Open Sans";
+}
+header, section, footer, aside, nav, article, hgroup{
+	display:block;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.container1 {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-top: auto;
+}
+#banner {
+	width: 100%;
+	height: 100%;
+}
+.heading {
+	color: maroon;
+	text-align: center;
+}
+.sidebar {
+	margin-top: 120px;
+	float: left;
+	width: 230px;
+	height: 1600px;
+	background: lightgray;
+	padding: 40px 0px 20px 20px;
+}
+.sidebar a {
+	text-decoration: none;
+	color: white;
+}
+.sidebar a:hover {
+	color: red;
+}
+.content {
+	margin: none;
+	float: right;
+	width: 880px;
+	padding: 20px 20px 20px 40px;
+}
+h4 {
+	text-align: center;
+	color: red;
+}
+#learners {
+	width: 800px;
+	padding-left: 60px;
+}
+#partners {
+	width: 400px;
+	height: 400px;
+	margin-left: 240px;
+}

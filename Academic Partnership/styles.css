@@ -1,0 +1,100 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+   width: 100%;
+}
+
+#h1 { 
+   color: maroon;
+   font-style: arial-verdana;
+   font-size: 14px;
+   position: absolute;
+   text-align: center;
+   top: 245px;
+   width:1200px; 
+   height: 100px; 
+   background:none; 
+}
+
+h3{
+   color: red;
+   font-style: arial-verdana;
+   font-size: 14px;
+   background: none;
+   text-align: center;
+}
+
+#banner { 
+   align-content: center;
+   margin-left: 50px;
+   margin-top: none;
+   width: 1200px; 
+   height: 80px; 
+   background:white; 
+}
+
+#content {
+   position: absolute;
+   left: 350px;
+   top: 320px;
+   width: 925px;
+   height: 400px;
+   font-size: 12px;
+}
+
+#navigation { 
+   background: lightgray;
+   position: absolute;
+   left: 50px;
+   top: 320px;
+   width: 275px;
+   height: 900px;
+   font-size: 14px;
+}
+
+#contlist{
+   list-style-type: disc;
+}
+
+#chart1{
+   position: absolute;
+   left: 250px;
+   top: 300px;
+   width: 430px;
+   height: 210px;
+}
+
+#chart2{
+   position: absolute;
+   left: 280px;
+   top: 620px;
+   width: 300px;
+   height: 250px;
+   align-content: center;
+}
+
+ul{
+   list-style-type: none;
+   padding-bottom: 5px;
+}
+
+li{
+   padding: 10px;
+   margin-top: 10px;
+}
+
+a{
+
+   text-decoration: none;
+}
+
+hr{
+   position: absolute;
+   left: 50px;
+   top: 520px;
+   width: 800px;
+   height: 0px;
+}
