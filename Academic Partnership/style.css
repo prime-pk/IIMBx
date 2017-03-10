@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Helvetica-Bold, sans-serif, "Open Sans";
+}/*This styling is for the complete html page*/
+
+.container1 {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-top: auto;
+}/*Main container styling*/
+
+.container2{
+	width: 100%;
+	display: flex;
+}/*Sub Container styling*/
+
+#banner {
+	width: 100%;
+	height: 100%;
+}/*Banner image size*/
+
+.heading {
+	padding: 40px 0px 50px 0px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 22px;
+	color: #A52F38;
+}/*Styling of main heading*/
+
+.sidebar {
+	float: left;
+	font-size: 12px;
+	width: 20%;
+	display: inline-block;
+	background-color: #B7BFC6;
+	padding: 50px;
+}/*Sidebar navigation styling*/
+
+#navbar li{
+	list-style-type: none;
+	text-decoration: none;
+	padding-bottom: 40px;
+}/*sidebar navigation's menus list styling*/
+
+.sidebar a {
+	text-decoration: none;
+	color: white;
+}/*linked text styling*/
+
+.sidebar a:hover {
+	color: #C1272D;
+}/*mouse over list item styling*/
+
+.content {
+	display: inline-block;
+	margin: 0px;
+	width: 78%;
+	line-height: 30px;
+	padding: 20px;
+}/*styling for the main content*/
+
+.paragraph{
+	width: 895px;
+	font-size: 12px;
+}/*styling for the main content paragraph*/
+
+#p1, #p2, #p3, #p4{
+	padding-bottom: 20px;
+}/*paragraph positioning*/
+
+.list{
+	font-size: 12px; 
+	padding-left: 10px;
+}/*list positioning*/
+
+.list ul{
+	list-style: none
+}/*list styling*/
+
+.list li::before 
+{
+	content: "•"; 
+	color: red;
+ 	display: inline-block; 
+ 	width: 1em;
+ 	margin-left: -1em
+}/*List item bullet styling*/
+
+#heading1, #heading2 {
+	font-size: 18px;
+	padding: 60px;
+	text-align: center;
+	color: #C1272D;
+}/*heading1 and heading2 shares the same styling*/
+
+#learners {
+	width: 800px;
+	height: 425px;
+	display: block;
+	margin: 0 auto;
+	padding: 0px 0px 50px 0px;
+	border-bottom: 1px solid;
+}/*Key benefits to learners image adjustment*/
+
+#partners {
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: 0 auto;
+}/*Key benefits to partners image adjustment*/
